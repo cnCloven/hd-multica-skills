@@ -23,7 +23,7 @@ XTOOL-HD 看板用的 Claude Code / CodeG skill 仓库。源文件在本仓库�
 示例（PowerShell）：
 
 ```powershell
-git clone <本仓库 URL> $env:USERPROFILE\src\hd-multica-skills
+git clone https://github.com/cnCloven/hd-multica-skills.git $env:USERPROFILE\src\hd-multica-skills
 Copy-Item -Recurse $env:USERPROFILE\src\hd-multica-skills\multica-create-project $env:USERPROFILE\.claude\skills\multica-create-project
 Copy-Item -Recurse $env:USERPROFILE\src\hd-multica-skills\multica-create-task $env:USERPROFILE\.claude\skills\multica-create-task
 ```
@@ -35,8 +35,8 @@ Copy-Item -Recurse $env:USERPROFILE\src\hd-multica-skills\multica-create-task $e
 1. 打开 http://172.16.0.67:3000/test/skills
 2. **新建 skill** → **从 URL 导入**
 3. 每个 skill 单独导一次，URL 指向该目录，例如：
-   - `https://github.com/<user>/hd-multica-skills/tree/main/multica-create-project`
-   - `https://github.com/<user>/hd-multica-skills/tree/main/multica-create-task`
+   - `https://github.com/cnCloven/hd-multica-skills/tree/main/multica-create-project`
+   - `https://github.com/cnCloven/hd-multica-skills/tree/main/multica-create-task`
 4. 导入后工作区能看见包；**不会**自动装进同事的 Claude Code。同事仍按上一节拷到 `.claude/skills/`。
 5. 不要点 **添加到智能体**，除非明确要让 Multica 智能体代建单。
 
