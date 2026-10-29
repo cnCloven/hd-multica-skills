@@ -5,6 +5,8 @@ description: "Create a Multica task (issue) on the web board (XTOOL-HD) with two
 
 # 创建 Multica 任务
 
+面板中文名：创建任务。本目录才是执行步骤；看板那一行只含 `repo` + `dir`。
+
 Issue 统一叫**任务**。在网页版看板「手动创建」。规范源：`D:\multicaws` 下最新的 `HD-multica看板约束-*.md`。禁止修改 `D:\share`。
 
 ## 何时用 / 何时不用

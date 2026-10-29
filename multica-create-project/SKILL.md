@@ -5,6 +5,8 @@ description: "Create a Multica project on the web board (XTOOL-HD) with two ques
 
 # 创建 Multica 项目
 
+面板中文名：创建项目。本目录才是执行步骤；看板那一行只含 `repo` + `dir`。
+
 在网页版看板创建项目。规范源：`D:\multicaws` 下最新的 `HD-multica看板约束-*.md`。禁止修改 `D:\share`。
 
 ## 何时用 / 何时不用
