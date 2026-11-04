@@ -1,4 +1,6 @@
-# Keep the GitHub copy empty. Skills stay on this disk only; do not add them.
+# Keep other local copies off GitHub. Only track 面板使用.
 *
 !.gitignore
 !README.md
+!multica-board/
+!multica-board/**

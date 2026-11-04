@@ -1,5 +1,5 @@
 # hd-multica-skills
 
-This repository has been emptied. Do not store skills or internal notes here.
+冷启动 skill：`multica-board`（面板中文名「面板使用」）。
 
-Skills are local-only. Do not push this repository unless a human explicitly asks.
+其它电脑上的 Agent：clone 后只拷 `multica-board/` 到 `.claude/skills/multica-board/`。
