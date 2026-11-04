@@ -1,0 +1,4 @@
+# Keep the GitHub copy empty. Skills stay on this disk only; do not add them.
+*
+!.gitignore
+!README.md
